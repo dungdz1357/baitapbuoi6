@@ -1,0 +1,50 @@
+.grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+   justify-content: center;
+  }
+  .grid-item {
+    padding: 9px;
+    margin: 4px;
+  } 
+
+.img1 {
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+
+
+p {
+  display: inline-block;
+  padding: 5px;
+}
+
+.gg1 {
+  border-left: solid;
+  position: relative;
+}
+
+.gg2 {
+  border-left: solid;
+  border-right: solid;
+}
+
+img {
+  position: relative;
+  top: 15px;
+  width: 40px;
+  height: 40px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-left {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
